@@ -1,0 +1,51 @@
+/* body {
+  background-color: #333;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  padding: 60px;
+} */
+
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Navigation bar styles */
+nav {
+  margin-bottom: 20px; /* Add some space below the navigation bar */
+  background-color: #333; /* Dark grey background */
+  padding: 10px 0; /* Padding inside the nav */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0;
+  display: flex; /* Use flexbox for horizontal alignment */
+  justify-content: center; /* Center the links horizontally */
+}
+
+nav li {
+  margin: 0 15px; /* Add space between the links */
+}
+
+nav a {
+  color: white; /* White text color */
+  text-decoration: none; /* Remove underline */
+  font-size: 18px; /* Increase font size */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
